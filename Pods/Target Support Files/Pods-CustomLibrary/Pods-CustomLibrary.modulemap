@@ -1,0 +1,6 @@
+module Pods_CustomLibrary {
+  umbrella header "Pods-CustomLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3011168221E223D8004A4DB4 /* MethodClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3011168121E223D8004A4DB4 /* MethodClass.m */; };
 		305DA5C321E1FDEC00C8895C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 305DA5C221E1FDEC00C8895C /* AppDelegate.m */; };
 		305DA5C621E1FDEC00C8895C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305DA5C521E1FDEC00C8895C /* ViewController.m */; };
-		305DA5C921E1FDEC00C8895C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305DA5C721E1FDEC00C8895C /* Main.storyboard */; };
 		305DA5CB21E1FDEF00C8895C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305DA5CA21E1FDEF00C8895C /* Assets.xcassets */; };
 		305DA5CE21E1FDEF00C8895C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305DA5CC21E1FDEF00C8895C /* LaunchScreen.storyboard */; };
 		305DA5D121E1FDEF00C8895C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 305DA5D021E1FDEF00C8895C /* main.m */; };
 		305DA5DB21E1FDEF00C8895C /* CustomLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305DA5DA21E1FDEF00C8895C /* CustomLibraryTests.m */; };
 		305DA5E621E1FDEF00C8895C /* CustomLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305DA5E521E1FDEF00C8895C /* CustomLibraryUITests.m */; };
+		F19F1E9D5C96A4E01E6BDB58 /* libPods-CustomLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 813489B2BBCB07F942FB14C2 /* libPods-CustomLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		258A3F814BE9004058F6BFF0 /* Pods-CustomLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomLibrary/Pods-CustomLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		3011168021E223D8004A4DB4 /* MethodClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodClass.h; sourceTree = "<group>"; };
+		3011168121E223D8004A4DB4 /* MethodClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodClass.m; sourceTree = "<group>"; };
 		305DA5BE21E1FDEC00C8895C /* CustomLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		305DA5C121E1FDEC00C8895C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		305DA5C221E1FDEC00C8895C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		305DA5C421E1FDEC00C8895C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		305DA5C521E1FDEC00C8895C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		305DA5C821E1FDEC00C8895C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		305DA5CA21E1FDEF00C8895C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		305DA5CD21E1FDEF00C8895C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		305DA5CF21E1FDEF00C8895C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		305DA5E121E1FDEF00C8895C /* CustomLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		305DA5E521E1FDEF00C8895C /* CustomLibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLibraryUITests.m; sourceTree = "<group>"; };
 		305DA5E721E1FDEF00C8895C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EA20FA21E2112100A28ADF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		813489B2BBCB07F942FB14C2 /* libPods-CustomLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E502F7CEE35172ED0B6C0D /* Pods-CustomLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomLibrary/Pods-CustomLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19F1E9D5C96A4E01E6BDB58 /* libPods-CustomLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +92,8 @@
 				305DA5D921E1FDEF00C8895C /* CustomLibraryTests */,
 				305DA5E421E1FDEF00C8895C /* CustomLibraryUITests */,
 				305DA5BF21E1FDEC00C8895C /* Products */,
+				37AE7CFECF33DC85A1411D5A /* Pods */,
+				922D7D4D08706395D96BB8AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +110,13 @@
 		305DA5C021E1FDEC00C8895C /* CustomLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				30EA20FA21E2112100A28ADF /* PrefixHeader.pch */,
 				305DA5C121E1FDEC00C8895C /* AppDelegate.h */,
 				305DA5C221E1FDEC00C8895C /* AppDelegate.m */,
 				305DA5C421E1FDEC00C8895C /* ViewController.h */,
 				305DA5C521E1FDEC00C8895C /* ViewController.m */,
-				305DA5C721E1FDEC00C8895C /* Main.storyboard */,
+				3011168021E223D8004A4DB4 /* MethodClass.h */,
+				3011168121E223D8004A4DB4 /* MethodClass.m */,
 				305DA5CA21E1FDEF00C8895C /* Assets.xcassets */,
 				305DA5CC21E1FDEF00C8895C /* LaunchScreen.storyboard */,
 				305DA5CF21E1FDEF00C8895C /* Info.plist */,
@@ -132,6 +143,23 @@
 			path = CustomLibraryUITests;
 			sourceTree = "<group>";
 		};
+		37AE7CFECF33DC85A1411D5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258A3F814BE9004058F6BFF0 /* Pods-CustomLibrary.debug.xcconfig */,
+				E1E502F7CEE35172ED0B6C0D /* Pods-CustomLibrary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		922D7D4D08706395D96BB8AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				813489B2BBCB07F942FB14C2 /* libPods-CustomLibrary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 305DA5EA21E1FDEF00C8895C /* Build configuration list for PBXNativeTarget "CustomLibrary" */;
 			buildPhases = (
+				E67DF4939FF11712B0B36FBD /* [CP] Check Pods Manifest.lock */,
 				305DA5BA21E1FDEC00C8895C /* Sources */,
 				305DA5BB21E1FDEC00C8895C /* Frameworks */,
 				305DA5BC21E1FDEC00C8895C /* Resources */,
+				F4EC238EEC087810AB539269 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +267,6 @@
 			files = (
 				305DA5CE21E1FDEF00C8895C /* LaunchScreen.storyboard in Resources */,
 				305DA5CB21E1FDEF00C8895C /* Assets.xcassets in Resources */,
-				305DA5C921E1FDEC00C8895C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,11 +286,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E67DF4939FF11712B0B36FBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4EC238EEC087810AB539269 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomLibrary/Pods-CustomLibrary-resources.sh",
+				"${PODS_ROOT}/FlatUIKit/Resources/flat-ui-icons-regular.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Bold.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Italic.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Light.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Regular.ttf",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flat-ui-icons-regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Bold.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Italic.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Light.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomLibrary/Pods-CustomLibrary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		305DA5BA21E1FDEC00C8895C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3011168221E223D8004A4DB4 /* MethodClass.m in Sources */,
 				305DA5C621E1FDEC00C8895C /* ViewController.m in Sources */,
 				305DA5D121E1FDEF00C8895C /* main.m in Sources */,
 				305DA5C321E1FDEC00C8895C /* AppDelegate.m in Sources */,
@@ -300,14 +387,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		305DA5C721E1FDEC00C8895C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				305DA5C821E1FDEC00C8895C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		305DA5CC21E1FDEF00C8895C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,35 +512,131 @@
 		};
 		305DA5EB21E1FDEF00C8895C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258A3F814BE9004058F6BFF0 /* Pods-CustomLibrary.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58L9A29PN4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CustomLibrary/PrefixHeader.pch";
 				INFOPLIST_FILE = CustomLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FMDB\"",
+					"-l\"FlatUIKit\"",
+					"-l\"GPUImage\"",
+					"-l\"ISO8601DateFormatterValueTransformer\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MagicalRecord\"",
+					"-l\"Mantle\"",
+					"-l\"RKValueTransformers\"",
+					"-l\"SDWebImage\"",
+					"-l\"SOCKit\"",
+					"-l\"TransitionKit\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.evenzhu.CustomLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		305DA5EC21E1FDEF00C8895C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E502F7CEE35172ED0B6C0D /* Pods-CustomLibrary.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58L9A29PN4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CustomLibrary/PrefixHeader.pch";
 				INFOPLIST_FILE = CustomLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FMDB\"",
+					"-l\"FlatUIKit\"",
+					"-l\"GPUImage\"",
+					"-l\"ISO8601DateFormatterValueTransformer\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MagicalRecord\"",
+					"-l\"Mantle\"",
+					"-l\"RKValueTransformers\"",
+					"-l\"SDWebImage\"",
+					"-l\"SOCKit\"",
+					"-l\"TransitionKit\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.evenzhu.CustomLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
