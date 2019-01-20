@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *virable;
 
-- (void)log:(NSString *)strings, ...;
+- (void)log:(NSString *)strings, ... NS_REQUIRES_NIL_TERMINATION;
 
 @end
 
